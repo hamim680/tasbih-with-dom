@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbih with DOM</title>
+    <link rel="stylesheet" href="tasbih.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <div class="tasbih-section">
+    <div class="header">
+        <h1>Digital Tasbih</h1>
+    </div>
+    <div class="card-section">
+        <div class="card-1">
+            <h1>SubahanAllah</h1>
+            <p id="SubahanAllahValue">0</p>
+            <div>
+                <button id="SubahanAllahIncrease" class="btn-1">Increase</button>
+                <button id="SubahanAllahDecrease" class="btn-2">Decrease</button>
+            </div>
+        </div>
+        <div class="card-2">
+            <h1>Alhamdulillah</h1>
+            <p id="AlhamdulillahValue">0</p>
+            <div>
+                <button id="AlhamdulillahIncrease" class="btn-1">Increase</button>
+                <button id="AlhamdulillahDecrease" class="btn-2">Decrease</button>
+            </div>
+        </div>
+        <div class="card-3">
+            <h1>AllahuAkbar</h1>
+            <p id="AllahuAkbarValue">0</p>
+            <div>
+                <button id="AllahuAkbarIncrease" class="btn-1">Increase</button>
+                <button id="AllahuAkbarDecrease" class="btn-2">Decrease</button>
+            </div>
+        </div>
+    </div>
+    <div class="btn-div"><button id="reset" class="reset-btn">Reset All Tasbih</button></div>
+   </div>
+<script src="tasbih.js"></script>
+</body>
+</html>

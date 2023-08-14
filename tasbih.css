@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tasbih-section{
+    height: 500px;
+    width: auto;
+    background-color: coral;
+    margin-bottom: 50px;
+}
+.header{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.card-section{
+    
+    height: 200px;
+    width: auto;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+.card-1 {
+    height: 150px;
+    width:180px;
+    border-radius: 10px;
+    
+    justify-content: center;
+    background-color: #fff;
+}
+.card-2 {
+    height: 150px;
+    width:180px;
+    border-radius: 10px;
+    
+    justify-content: center;
+    background-color: #fff;
+}
+.card-3 {
+    height: 150px;
+    width:180px;
+    border-radius: 10px;
+    
+    justify-content: center;
+    background-color: #fff;
+}
+.btn-1{
+    height: auto;
+    width: 80px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: beige;
+    justify-content: center;
+}
+.btn-2{
+    height: auto;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(36, 110, 1);
+    color: beige;
+    justify-content: center;
+}
+
+.reset-btn{
+
+    height: 40px;
+    width: auto;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(235, 23, 97);
+    
+   
+}
+
+.tasbih-section .btn-div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
